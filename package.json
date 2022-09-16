@@ -1,5 +1,5 @@
 {
-  "engines": { "node" : "16.17.0 }
+  "engines": { "node" : "16.17.0" }
   "name": "chat-translator",
   "version": "1.0.0",
   "description": "",
