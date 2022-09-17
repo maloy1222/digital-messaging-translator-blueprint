@@ -52,6 +52,6 @@ app.post('/translate', (req, res) => {
     });
 });
 
-
-httpsServer.listen(443);
-console.log('HTTPS listening on: 443');
+var port = process.env.PORT || 443;
+httpsServer.listen(port);
+console.log('HTTPS listening on: ', port);
